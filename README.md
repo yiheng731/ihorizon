@@ -1,5 +1,7 @@
 # ihorizon
 
+[English](README.en.md) | **简体中文**
+
 在这里感谢[Horizon](https://github.com/horizon-rust/horizon)开源的客户端，才让本项目实现
 
 **Minecraft: Java Edition（26.3）在 iPhone / iPad 上的原生运行环境。**
