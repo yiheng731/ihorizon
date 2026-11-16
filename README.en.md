@@ -14,7 +14,6 @@ So there is no JIT, no HotSpot, no GL4ES translation layer at startup: what runs
 <img width="896" height="414" alt="IMG_3548" src="https://github.com/user-attachments/assets/bf170c08-9764-4517-b944-05288a055bc9" />Minecraft 40fps+ (shaders), iPhone 11
 <img width="896" height="414" alt="IMG_3551" src="https://github.com/user-attachments/assets/bc93943c-f2e9-4985-bc8e-8e64d4eddf80" />ihorizon 60fps+ (shaders), iPhone 11
 
-
 ```
 iPhone (Metal)  ←  wgpu  ←  horizon-client (Rust)
                                 ↑
@@ -41,7 +40,6 @@ iPhone (Metal)  ←  wgpu  ←  horizon-client (Rust)
 - **Does not contain game assets.** The package holds the engine only; block textures, sounds and language files have to be extracted from your own copy of the game and imported.
 
 ---
-
 
 ## Controls
 
@@ -74,4 +72,3 @@ Iris/OptiFine-format `.zip` packs also work (drop them in `Documents/ihorizon/sh
 
 ## Licence
 
-See [LICENSE](LICENSE): **personal study, research, use and modification on your own devices are allowed; any form of sale or commercial use is prohibited.**

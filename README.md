@@ -14,7 +14,6 @@
 <img width="896" height="414" alt="IMG_3548" src="https://github.com/user-attachments/assets/bf170c08-9764-4517-b944-05288a055bc9" />Minecraft 40fps+（Shaders）iphone11
 <img width="896" height="414" alt="IMG_3551" src="https://github.com/user-attachments/assets/bc93943c-f2e9-4985-bc8e-8e64d4eddf80" />ihorizon 60fps+（Shaders）iphone11
 
-
 ```
 iPhone (Metal)  ←  wgpu  ←  horizon-client (Rust)
                                 ↑
@@ -41,7 +40,6 @@ iPhone (Metal)  ←  wgpu  ←  horizon-client (Rust)
 - **不含游戏资源**。包里只有引擎；方块贴图、音效、语言文件都要你自己从正版客户端抽取后导入。
 
 ---
-
 
 ## 操作
 
@@ -72,6 +70,3 @@ iPhone (Metal)  ←  wgpu  ←  horizon-client (Rust)
 
 ---
 
-## 许可
-
-见 [LICENSE](LICENSE)：**允许个人学习、研究、在自己设备上使用与修改；禁止任何形式的售卖与商业使用。**
