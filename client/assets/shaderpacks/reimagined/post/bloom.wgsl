@@ -1,5 +1,3 @@
-
-
 override bloom_strength: f32 = 0.35;
 override bloom_threshold: f32 = 0.75;
 
@@ -15,7 +13,6 @@ fn post(input: PostInput) -> vec4<f32> {
     var glow = bright(input.color.rgb);
     var weight = 1.0;
 
-
     let near = 1.0;
     let far = 3.0;
     glow += bright(textureSampleLevel(previous, linear_sampler, input.uv + vec2<f32>( near,  0.0) * px, 0.0).rgb);
@@ -29,7 +26,6 @@ fn post(input: PostInput) -> vec4<f32> {
     weight = 9.0;
 
     glow = glow / weight * bloom_strength;
-
 
     let sky_lift = select(1.0, 0.35, frame.dimension == 0);
     return vec4<f32>(input.color.rgb + glow * sky_lift, input.color.a);
